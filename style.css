@@ -1,0 +1,177 @@
+.back-ground{
+    height: 80vh;
+    width: 100%; /* 1600px / 1600px = 100% */
+    background: url(img/back.png) no-repeat center 0;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+.text{
+    height: 20px;
+    float: right;
+}
+.middle{
+}
+.second{
+    width: 100%; /* 1600px / 1600px = 100% */
+    background: url(img/peak_2.jpg) no-repeat center 0;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg {
+    margin: 14px auto 0;
+    padding: 44px 0 453px;
+    position: relative;
+    width: 100%; /* 1600px / 1600px = 100% */
+    /* background: url(img/peak_2.jpg) no-repeat center 0;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+  }
+  .text-5 {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+  }
+  .wrapper-2 {
+    height: 148px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 85;
+  }
+  .history1 {
+    left: 20%;
+    position: absolute;
+    top: 77px;
+    color: #414f6b;
+    font-family: Oswald, sans-serif;
+    font-size: 2rem; /* 32px / 16px = 2rem */
+    font-weight: bold;
+    line-height: 35px;
+    margin-left: 4.5px;
+  }
+  .text-61 {
+    left: 20%;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    color: #414f6b;
+    font-family: Oswald, sans-serif;
+    font-size: 8.476721rem; /* 135.63px / 16px = 8.476875rem */
+    font-weight: bold;
+    line-height: 148px;
+    margin-left: -124.5px;
+  }
+  .text-7 {
+    margin: -8px auto 0;
+    position: relative;
+    width: 100%;
+    z-index: 84;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  /* courousel */
+  @media (max-width: 767px) {
+		.carousel-inner .carousel-item > div {
+			display: none;
+		}
+		.carousel-inner .carousel-item > div:first-child {
+			display: block;
+		}
+	}
+
+	.carousel-inner .carousel-item.active,
+	.carousel-inner .carousel-item-next,
+	.carousel-inner .carousel-item-prev {
+		display: flex;
+	}
+
+	/* medium and up screens */
+	@media (min-width: 768px) {
+
+		.carousel-inner .carousel-item-end.active,
+		.carousel-inner .carousel-item-next {
+			transform: translateX(25%);
+		}
+
+		.carousel-inner .carousel-item-start.active, 
+		.carousel-inner .carousel-item-prev {
+			transform: translateX(-25%);
+		}
+	}
+
+	.carousel-inner .carousel-item-end,
+	.carousel-inner .carousel-item-start { 
+		transform: translateX(0);
+	}
+  .pos{
+    position:relative;
+    bottom: 10px;
+  }
+  .bg {
+    margin: 14px auto 0;
+    padding: 44px 0 453px;
+    position: relative;
+    width: 100%; /* 1600px / 1600px = 100% */
+    background: url(images/peak_2.jpg) no-repeat center 0;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .text-5 {
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+    z-index: 0;
+  }
+  .wrapper-2 {
+    height: 148px;
+    overflow: hidden;
+    position: relative;
+    width: 30%;
+    z-index: 85;
+    float: left;
+  }
+  .history2 {
+    left: 50%;
+    position: absolute;
+    top: 77px;
+    color: #414f6b;
+    font-family: Oswald, sans-serif;
+    font-size: 2rem; /* 32px / 16px = 2rem */
+    font-weight: bold;
+    line-height: 35px;
+    margin-left: 4.5px;
+  }
+  .text-62 {
+    left: 50%;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    color: #414f6b;
+    font-family: Oswald, sans-serif;
+    font-size: 8.476721rem; /* 135.63px / 16px = 8.476875rem */
+    font-weight: bold;
+    line-height: 148px;
+    margin-left: -124.5px;
+  }
+  .text-7 {
+    margin: -8px auto 0;
+    position: relative;
+    width: 70%;
+    float:right;
+    z-index: 84;
+    font-weight: 300;
+    line-height: 24px;
+  }  
